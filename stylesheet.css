@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #faf7f7;
+}
+.main-container {
+  background-image: url("./assets/Rectangle\ 1.svg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
+}
+.custom-color {
+  color: rgba(247, 128, 101, 1);
+}
+.custom-container {
+  width: 741px;
+  position: relative;
+  margin-top: -7rem;
+  margin-right: 16rem;
+  box-shadow: 6px 4px 14px -4px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.custom-btn {
+  background-color: rgba(247, 128, 101, 1);
+  color: white;
+}
+.custom-height {
+  height: 120px;
+}
+.custom-bg-color {
+  background-color: rgb(250, 247, 247);
+}
+.customize-footer {
+  background-color: rgba(247, 247, 247, 1);
+}
+.custom-card {
+  background-color: transparent;
+  margin: 0rem 1rem;
+}
+.x-small {
+  font-size: 14px;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 3vh;
+  height: 3vh;
+  border-radius: 50%;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+@media (max-width: 991px) {
+  .custom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 3rem;
+    width: 417px;
+    margin-top: -7rem;
+  }
+
+  .custom-img {
+    width: 100%;
+  }
+  .custom-height {
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  .custom-container {
+    margin: -7rem auto 0rem auto;
+    max-width: 100%;
+  }
+}
